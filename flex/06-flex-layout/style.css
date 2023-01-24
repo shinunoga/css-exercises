@@ -18,10 +18,46 @@ button {
   background: #eee;
 }
 
+ul {
+  list-style-type: none;  
+  margin: 0;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
-  padding: 8px 24px;
   width: 400px;
+  padding: 8px 24px;
   margin-bottom: 16px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+
+.left-links, .right-links {
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 215px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  align-self: flex-end;
 }
